@@ -57,7 +57,7 @@ def render_page(page):
 def logout():
     st.session_state["signed_in"] = False
     st.session_state["user"] = None
-    st.experimental_rerun()
+    st.legacy_caching.rerun()
 
 def reset_password():
     # Add your password reset logic here
@@ -74,7 +74,7 @@ def sign_in_render():
         if verify_password(username, password):
             st.session_state["signed_in"] = True
             st.session_state["user"] = username
-            st.experimental_rerun()
+            st.legacy_caching.rerun()
         else:
             st.error("Invalid credentials")
 
