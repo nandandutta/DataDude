@@ -22,9 +22,9 @@ Leverage the power of AI to streamline your digital marketing efforts and maximi
 
 ## Team
 - [Nandan Dutta]: Project Lead
-- [Team Member 1]: AI Engineer
-- [Team Member 2]: Digital Marketing Specialist
-- [Team Member 3]: Data Scientist
+- [Nandan]: AI Engineer
+- [Nandan]: Digital Marketing Specialist
+- [nandan]: Data Scientist
 
 ## Timeline
 - **Q1**: Project planning and setup.
