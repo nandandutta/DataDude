@@ -1,0 +1,31 @@
+# home.py
+
+import streamlit as st
+
+def home_page():
+    st.title("AI-Powered Digital Marketing Hub")
+    st.write("## Overview")
+    st.write("Leverage the power of AI to streamline your digital marketing efforts and maximize ROI.")
+    st.write("## Features")
+    st.write("* AI-Driven Campaign Management: Create, manage, and optimize digital marketing campaigns across various channels.")
+    st.write("* Content Generation: Use AI to generate high-quality content for your marketing campaigns.")
+    st.write("* Social Media Monitoring: Utilize AI-powered social media monitoring to track engagement metrics and sentiment analysis.")
+    st.write("* Email Marketing Optimization: Use AI to optimize email campaigns for improved open rates, click-through rates, and conversion rates.")
+    st.write("* Predictive Analytics: Leverage AI-driven predictive analytics to forecast future trends and make data-driven decisions.")
+    st.write("* Team Collaboration: Invite team members, assign tasks, and track progress with AI-powered project management tools.")
+    st.write("## Benefits")
+    st.write("* Simplified Workflow: Manage all digital marketing efforts in one place with AI-powered automation.")
+    st.write("* Increased Efficiency: Focus on strategy while AI handles repetitive tasks.")
+    st.write("* Improved Collaboration: Team members can work together seamlessly with AI-powered communication tools.")
+    st.write("* Enhanced Insights: Make data-driven decisions with AI-driven predictive analytics and reporting.")
+    st.write("* Better ROI: Optimize campaigns for improved return on investment with AI-powered optimization tools.")
+    st.write("## Team")
+    st.write("* [Nandan Dutta]: Project Lead")
+    st.write("* [Team Member 1]: AI Engineer")
+    st.write("* [Team Member 2]: Digital Marketing Specialist")
+    st.write("* [Team Member 3]: Data Scientist")
+    st.write("## Timeline")
+    st.write("* Q1: Project planning and setup.")
+    st.write("* Q2: AI-driven campaign management and content generation development.")
+    st.write("* Q3: Social media monitoring and email marketing optimization integration.")
+    st.write("* Q4: Predictive analytics, team collaboration, and deployment.")
