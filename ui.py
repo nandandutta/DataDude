@@ -23,7 +23,7 @@ def create_sidebar():
     if st.session_state["signed_in"]:
         nav = st.sidebar.selectbox("Select a page", ["Home", "Predictive Analytics","Campaign Management", "Content Calendar", "Social Media Management", "Email Marketing", "Analytics and Reporting", "Team Collaboration", "Document Management", "Data Integration", "Logout"], key="nav_menu_signed_in")
     else:
-        nav = st.sidebar.selectbox("Select a page", ["Sign In", "Reset Password"], key="sign_in_nav_not_signed_in")
+        nav = st.sidebar.selectbox("Select a page", ["Landing Page","Sign In", "Reset Password"], key="sign_in_nav_not_signed_in")
     return nav
 
 def render_page(page):
@@ -53,6 +53,8 @@ def render_page(page):
         logout()
     elif page == "Reset Password":
         reset_password()
+    elif page == "Landing Page":
+        landing_page()
 
 def logout():
     st.session_state["signed_in"] = False
