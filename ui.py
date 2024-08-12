@@ -9,7 +9,7 @@ from social_media_management import social_media_management
 from email_marketing import email_marketing
 from analytics_and_reporting import analytics_and_reporting
 from team_collaboration import team_collaboration
-
+from landing_page import landing_page
 
 
 
