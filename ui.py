@@ -106,8 +106,9 @@ def content_calendar_render():
     st.write("Content calendar page logic goes here")
 
 def social_media_management_render():
+    social_media_management()
     # Add your social media management page logic here
-    st.write("Social media management page logic goes here")
+    #st.write("Social media management page logic goes here")
 
 def email_marketing_render():
     # Add your email marketing page logic here
