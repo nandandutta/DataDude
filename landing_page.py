@@ -125,7 +125,7 @@ def landing_page():
 
     st.markdown("""
         <div class="footer">
-            <p>Contact us: <a href="mailto:n.dutta25@gmail.com">n.dutta25@gmail.com</a> | Phone: 9903404639 | Address: 123 Baguihati</p>
+            <p>Contact us: <a href="mailto:n.dutta25@gmail.com">n.dutta25@gmail.com</a> | Phone: 9903 baki mail pe | Address: 123 Baguihati</p>
         </div>
     """, unsafe_allow_html=True)
 
